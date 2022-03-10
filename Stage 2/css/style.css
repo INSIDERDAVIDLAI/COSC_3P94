@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-ul {
+.nav .search{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,6 +46,15 @@ ul {
     border-radius: 15px;
     margin: 5px;
   }
-
+  .search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
 
   
