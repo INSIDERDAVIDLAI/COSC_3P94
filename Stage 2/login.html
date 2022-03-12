@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<!--real estate website-->
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <link rel="stylesheet" href="login.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class = "infoFrame">
+            <div class ="rgtrFrame hidden">  
+                <h1>REGISTER</h1>
+                <input type = "text" placeholder="User name">
+                <input type = "email" placeholder="Email">
+                <input type = "password" placeholder="Password">
+                <input type = "tel" placeholder="Phone number">
+                <button>get code</button>
+                <input type = "text" placeholder="Code">
+                <button>SIGN UP</button>
+
+            </div>
+        
+            <div class ="lgnFrame">
+                <h1>LOGIN</h1>
+                <input type = "text" placeholder="User name">
+                <input type = "password" placeholder="password">
+                
+                <a href="forget_password.html">Forget Password?</a> 
+                
+                
+                <button>LOGIN</button>
+                
+                <button>Continue with GOOGLE</button>
+                <button>Continue with FACEBOOK</button>
+            </div>
+        </div>
+       
+        <div class = "basedFrame left">
+            <h2>WELCOME</h2>
+            <h3>Sign Up Today! get the&nbsp<span>BONUS</span>!</h3>
+            <img src="login1.jpg" alt="">
+            <p>signed up before?</p>
+            <button id ="login">LOGIN</button>
+        </div>
+
+        <div class = "basedFrame right">
+            <h2>WELCOME</h2>
+            <h3>Find your&nbsp<span>DREAM HOUSE</span>!</h3>
+            <img src="login2.jpg" alt="">
+            <p>no account?</p>
+            <button id ="register">SIGN UP</button>
+        </div>
+    
+    </div>
+    <script>
+        let login=document.getElementById('login');
+        let register=document.getElementById('register');
+        let infoF = document.getElementsByClassName('infoFrame')[0];
+        let rgtrF = document.getElementsByClassName('rgtrFrame')[0];
+        let lgnF = document.getElementsByClassName('lgnFrame')[0];
+
+        register.addEventListener('click',()=>{
+            infoF.style.transform = 'translateX(80%)';
+            lgnF.classList.add('hidden');
+            rgtrF.classList.remove('hidden');
+
+
+        })
+
+        login.addEventListener('click',()=>{
+            infoF.style.transform = 'translateX(0%)';
+            rgtrF.classList.add('hidden');
+            lgnF.classList.remove('hidden');
+            
+
+        })     
+    </script>
+</body>
+
+</html> 
