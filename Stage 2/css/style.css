@@ -103,3 +103,17 @@
     width: 600px;
     height: 400px;
   }
+
+  #imgContainer button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 5px;
+  }
