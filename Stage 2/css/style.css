@@ -95,13 +95,16 @@
     resize: vertical;
   }
   #imgContainer{
+    margin-left: 10px auto;
+    margin-right: 10px auto;
+    float: left;
     margin:100px auto;
-    width:600px;
-    height: 400px
+    width:1280px;
+    height: 720px
   }
   #img {
-    width: 600px;
-    height: 400px;
+    width: 1280px;
+    height: 720px;
   }
 
   #imgContainer button{
