@@ -94,4 +94,12 @@
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+  #imgContainer{
+    margin:100px auto;
+    width:600px;
+    height: 400px
+  }
+  #img {
+    width: 600px;
+    height: 400px;
+  }
