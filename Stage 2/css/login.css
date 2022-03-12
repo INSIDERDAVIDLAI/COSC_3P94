@@ -5,6 +5,38 @@
 
 
 
+
+
+.nav{
+    width: 100%;
+    list-style-type: none;
+    background-color: lightblue;
+    position: fixed;
+    top:0px;
+    margin:0 auto;
+    
+    
+    
+  }
+  
+li {
+    float: right;
+   
+  }
+
+li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    color: rgb(255, 0, 0);
+  }
+
 body{
     height: 100vh;
     display: flex;
