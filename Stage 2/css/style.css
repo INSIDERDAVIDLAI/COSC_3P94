@@ -120,3 +120,13 @@
     border-radius: 15px;
     margin: 5px;
   }
+  .footer {
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+  }
