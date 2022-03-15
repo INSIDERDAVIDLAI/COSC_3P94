@@ -60,7 +60,7 @@
     float: left;
   }
 
-  .contact {
+  .contact,.calculator {
     font-family: 'Roboto', sans-serif;
     float: right;
     border-radius: 5px;
