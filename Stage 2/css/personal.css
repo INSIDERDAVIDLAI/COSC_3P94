@@ -81,7 +81,7 @@
     margin-top: 50px;
     margin-left: 300px;
     background-color: rgba(0,0,0,0.65);
-    height: 800px;
+    height: 1000px;
     color:aliceblue;
 
 
@@ -97,4 +97,77 @@
   cursor: pointer;
 }
 
+.viewHistory, .savedHouse{
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.815);
+  max-width: 300px;
+  margin: 20px;
+  text-align: left;
+  font-family: arial;
+  border-radius: 10px;
+  
+}
+.viewHistory button, .savedHouse button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: lightblue;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+  font-size: 18px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
 
+.content li{
+  margin: 20px;
+  
+}
+
+.content select{
+  text-align: center;
+  margin: 40px;
+  padding: 0;
+}
+
+.pbar {
+
+  width: 1000px;
+  
+  height: 30px;
+  
+  background-color: #ddd;
+  
+  border-radius: 20px;
+  
+  }
+  
+  
+  
+.processing {
+  
+  line-height: 30px;
+  
+  color: white;
+  
+  border-radius: 20px;
+  
+  text-align: center;
+  
+  width: 50%;
+
+  background-color: #4CAF50;
+  
+  }
