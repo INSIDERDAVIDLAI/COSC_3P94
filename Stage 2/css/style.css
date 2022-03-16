@@ -60,7 +60,16 @@
     float: left;
   }
 
-  .contact,.calculator {
+  .contact {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 600px;
+  }
+  .calculator{
     font-family: 'Roboto', sans-serif;
     float: right;
     border-radius: 5px;
