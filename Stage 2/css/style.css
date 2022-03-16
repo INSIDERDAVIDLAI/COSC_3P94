@@ -71,7 +71,7 @@
   }
   .calculator{
     font-family: 'Roboto', sans-serif;
-    float: right;
+    float: left;
     border-radius: 5px;
     background-color: lightblue;
     padding: 20px;
