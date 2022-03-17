@@ -139,3 +139,11 @@
     color: black;
     text-align: center;
   }
+
+  .search{
+    float: middle;
+    max-width: 500px;
+    margin: 20px;
+    text-align: left;
+    font-family: arial;
+  }
