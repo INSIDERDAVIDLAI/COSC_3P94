@@ -15,8 +15,8 @@ $("#container").height(height+"px");
 <head>
 <li>Main navegation bar</li>
 <a href=".html"/>home</a>
-<a href=".html">buy</a>
-<a href=".html"/>sell</a>
+<a href="buy.html">buy</a>
+<a href="sell.html"/>sell</a>
 <a href=".html"/>login</a>
 <a href=".html">logout</a>
 <a href=".html"/>FAQ</a>
@@ -93,9 +93,20 @@ $("#container").height(height+"px");
 </head>
 <body>
 
+  
+
+  <p id="number1"></p>
+  <button onclick="random()">when you cilck this button,you will get the house vulue</button>
+  
+  <script>
+   function random(){
+  
+  document.getElementById("number1").innerHTML = Math.floor(Math.random() * 10000000);
+  }
+  </script>
 
 
-<div class="bg-text">COSC 3P94</div>
+
 
 </body>
 <style>
@@ -230,13 +241,11 @@ $("#container").height(height+"px");
 
 <div id="myDIV" class="header">
   <h2 style="margin:5px">WishList</h2>
-  <input type="text" id="myInput" placeholder="type your favor item here...">
+  <input type="text" id="myInput" placeholder="type your favor house here...">
   <span onclick="newElement()" class="addBtn">Add cart</span>
 </div>
 <ul id="myUL">
-  <li>show house</li>
-  <li>show house</li>
-  <li>show house</li>
+ 
 
 </ul>
 
@@ -313,7 +322,7 @@ function newElement() {
 <th>house one</th><th>house two</th><th>house three</th><th>house four</th><th>house five</th><th>house six</th>
 </tr>
 <tr>
-<td> <a href=".html">$500</a> </td><td> <a href=".html">$8000000</a> </td><td> <a href=".html">$1000000</a> </td><td> <a href=".html">$2000000</a> </td><td> <a href="3000.html">$3000</a> </td><td><a href="4000.html">$4000</a></td>
+<td> <a href=".html">$5000000</a> </td><td> <a href=".html">$8000000</a> </td><td> <a href=".html">$1000000</a> </td><td> <a href=".html">$2000000</a> </td><td> <a href="3000.html">$3000</a> </td><td><a href="4000.html">$4000</a></td>
 </tr>
 <tr>
 <td>recommand</td><td>best value</td><td>good chioce</td><td>second choice</td><td>good idea</td><td>good house</td>
