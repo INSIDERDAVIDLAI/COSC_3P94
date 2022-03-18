@@ -23,6 +23,7 @@
     </ul>
     </nav>
 
+
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -83,5 +84,21 @@
 </head>
 
 <body>
+    
+
+    <p id="number1"></p>
+
+  <button onclick="random()">when you cilck this button,you will get the house vulue</button>
+  
+  <script>
+   function random(){
+  
+  document.getElementById("number1").innerHTML = Math.floor(Math.random() * 10000000);
+  }
+  </script>
+
+
+
+
 
 </body>
