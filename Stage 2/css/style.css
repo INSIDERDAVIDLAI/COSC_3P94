@@ -130,7 +130,7 @@
     margin: 5px;
   }
   .footer {
-    position:absolute;
+    position:fixed;
     font-family: 'Roboto', sans-serif;
     left: 0;
     bottom: 0;
