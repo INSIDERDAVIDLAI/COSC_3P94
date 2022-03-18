@@ -1,31 +1,16 @@
 <!DOCTYPE HTML>
 <html>
-
+   
 <head>
 
 
-
-    <link rel="stylesheet" type="text/css" href="theme.css" />
-    <ul>
-        <nav>
-
-            <head>
-                <title>Our online real estate</title>
-                <li>Main navegation bar</li>
-                <a href=".html" />home</a>
-                <a href="buy.html">buy</a>
-                <a href="sell.html" />sell</a>
-                <a href=".html" />login</a>
-                <a href=".html">logout</a>
-                <a href=".html" />FAQ</a>
-
-
-    </ul>
-    </nav>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 
 
     </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         body {
             font-family: 'PressStart2PRegular';
@@ -74,25 +59,36 @@
             height: 200px;
             background-color: white;
         }
-        
-        var height=$(window).height(); //gets height from device
-        var width=$(window).width(); //gets width from device
-        $("#container").width(width+"px");
-        $("#container").height(height+"px");
+        p:before{content:"$"; color:#ff0000;
+    }
+   
     </style>
 
 </head>
 
 <body>
+    
+    <div class="nav">
+        <a href="index.html"><img src="img/logo.png" alt="logo" width="185" height="60"></a>
+        <li><a href="tel:000-000-0000">Inquiry now: 000-000-0000</a></li>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="buy.html">Buy</a></li>
+        <li><a href="sell.html">Sell</a></li>
+        <li><a href="login.html">Login</a></li>
+    </div>
+    
     <ul class="header-nav">
         <li class="item">
-            <!--<span class="icon-search"></span>-->
+            
             <form action="">
-                <input class="search-input" type="text">
+               
+                <input type="text" id="myInput" placeholder="type your house address here...">
             </form>
         </li>
         
     </ul>
+    
 
 
     <p id="number1"></p>
