@@ -4,14 +4,22 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+
+  .nav:hover li{
+    opacity: 0.2;
+    filter:blur(1px);
   }
   
   li {
     float: right;
+    transition: 0.5s;
   }
   
   li a {
+    position:relative;
     font-family: 'Roboto', sans-serif;
     display: block;
     color: black;
@@ -19,9 +27,11 @@
     padding: 20px 20px;
     text-decoration: none;
   }
+
   
-  li a:hover {
-    color: rgb(255, 0, 0);
+  .nav li:hover{
+    opacity: 1;
+    filter: blur(0px);
   }
 
   .item {
@@ -57,40 +67,68 @@
     cursor: pointer;
   }
   .info {
-    float: left;
+    margin-left: 100px;
+    width: 500px;
+    height: 200px;
+
   }
+
+  .container{
+    height: 1500px;
+
+
+  }
+  .sidebar {
+    margin: 50px;
+    border-radius: 5px;
+    height: 500px;
+    width: 800px;
+    
+    color:black;
+    font-size: 20px;
+    
+}
+
+
+
 
   .contact {
     font-family: 'Roboto', sans-serif;
     float: right;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: azure;
     padding: 20px;
-    max-width: 400px;
-    max-height: 600px;
+    width: 400px;
+    height: 600px;
+    
   }
   .calculator{
     font-family: 'Roboto', sans-serif;
-    float: left;
+    float: right;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: azure;
     padding: 20px;
-    max-width: 400px;
-    max-height: 600px;
+    width: 400px;
+    height: 600px;
+
   }
   .contact button,.calculator button {
     border: none;
     outline: 0;
     padding: 12px;
-    color: black;
-    background-color: white;
+    color: #fff;
+    background: linear-gradient(to right,rgb(87, 51, 250),rgb(243, 69, 98),rgb(235, 12, 179),rgb(14, 14, 252));
+    background-size: 300px;
     text-align: center;
     cursor: pointer;
-    width: auto;
-    font-size: 18px;
-    border-radius: 15px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 20px;
     margin: 5px;
   }
+
+
+ 
 
   input[type=text], select, textarea {
     font-family: 'Roboto', sans-serif;
@@ -121,24 +159,53 @@
     outline: 0;
     padding: 12px;
     color: black;
-    background-color: lightblue;
+    background-color: rgba(124, 128, 119, 0.164);
     text-align: center;
     cursor: pointer;
-    width: auto;
+    width: 40px;
+    height: 40px;
     font-size: 18px;
-    border-radius: 15px;
-    margin: 5px;
+    border-radius: 10px;
   }
+
+  #imgContainer button:hover{
+    background-color: #1898e2;
+    color: #fff;
+    transition: backgorund-color 0.5s ease;
+
+}
   .footer {
     position:fixed;
     font-family: 'Roboto', sans-serif;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lightblue;
-    color: black;
-    text-align: center;
+    height: 200px;
+    background-color: rgb(107, 156, 247);
+    color: white;
+    display: flex;
+
   }
+
+.intro{
+    width: 400px;
+    float: left;
+
+
+
+  }
+
+.coninfo{
+    width: 400px;
+    margin-left: 200px;
+    
+    
+}
+
+
+
+
+
 
   .search{
     float: middle;
@@ -147,3 +214,18 @@
     text-align: left;
     font-family: arial;
   }
+
+
+  .content{
+    margin-left: 900px;
+    height: 100%;
+  }
+
+  div{
+    margin: 5px;
+  }
+
+  .section{
+    margin: 200px;
+  }
+  

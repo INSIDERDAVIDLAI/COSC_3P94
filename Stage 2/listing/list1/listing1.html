@@ -9,6 +9,7 @@
 </head>
 
 <body>
+ 
     <div class="nav">
         <a href="../index.html"><img src="../../pics/logo.png" alt="logo" width="185" height="60"></a>
         <li><a href="tel:000-000-0000">Inquiry now: 000-000-0000</a></li>
@@ -19,76 +20,119 @@
         <li><a href="../../login.html">Login</a></li>
     </div>
 
+
     <div id="imgContainer">
         <img src="int1.jpg" alt="interior" id="img">
         <div id="buttonContainer">
-            <p><button onclick="pre()">&#10094;</button>
+            <center><button onclick="pre()">&#10094;</button>
                 <button onclick="next()">&#10095;</button>
-            </p>
+            </center>
         </div>
     </div>
-    <div class="info">
-        <p class="location">40 College St, Toronto, ON M5G 2J3</p>
-        <p class="price">$523,000</p>
-        <p class="description">2 bed 1 bath 1001 to 1500 sqft, detached</p>
-        <p class="MLS">MLS:23748323</p>
-        <p class="nearby">Nearby Locations: Tim Hortons, Costco//Table view under development</p>
-        <p class="type">Semi-Detached</p>
+
+
+
+    <div class="container">
+        <div class="sidebar">
+                <h2 class="location">40 College St, Toronto, ON M5G 2J3</h2>
+                <p class="price">$523,000</p>
+                <p class="description">2 bed 1 bath 1001 to 1500 sqft, detached</p>
+                <p class="MLS">MLS:23748323</p>
+                <p class="nearby">Nearby Locations: Tim Hortons, Costco//Table view under development</p>
+                <p class="type">Semi-Detached</p>
+        
+                <br>
+                <hr>
+                <h1>description </h1>
+        
+                <p class="description">Top To Bottom Renovated, Meticulously Maintained, 3+2 Beds, One Bath, All Brick Bungalow Located In The Sought-After North-End Family Neighborhood! This Airy And Lovely Home Offers The Deep Double Driveway That Can Easily Accommodate Seven Cars! Plenty Of Opportunities With This Spacious Backyard With Mature Trees, Truly In Move-In Condition.</p>
+      
+
+        </div>
+
+        <div class="content">
+
+            <div class="contact">
+                <form action="/">
+                    <label for="fname">Full name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name here">
+        
+                    <label for="email">Email address</label>
+                    <input type="text" id="email" name="lastname" placeholder="Your email address here">
+        
+                    <label for="phone">Phone number</label>
+                    <input type="text" id="Phone number" name="phone" placeholder="Your phone number here">
+        
+        
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject"
+                        placeholder="I would like more information regarding this property at 40 College St, Toronto, ON M5G 2J3"
+                        style="height:200px"></textarea>
+        
+                    <p><button>Submit an inquiry</button></p>
+                </form>
+            </div>
+
+
+            <div class="calculator">
+                <form action="/">
+                    <label for="fname">Annual Income</label>
+                    <input type="text" id="ai" name="firstname" placeholder="$1 000 000">
+        
+                    <label for="email">Interest Rate</label>
+                    <input type="text" id="rate" name="lastname" placeholder="2.49%">
+        
+                    <label for="phone">Monthly Debts</label>
+                    <input type="text" id="debt" name="phone" placeholder="$4500">
+        
+                    <label for="phone">Mortgage Length</label>
+                    <input type="text" id="length" name="phone" placeholder="25 years">
+        
+                    <label for="phone">Down Payment</label>
+                    <input type="text" id="dp" name="phone" placeholder="$100 000">
+        
+                    <label for="phone">Property Price</label>
+                    <input type="text" id="Price" name="phone" placeholder="$523 000">
+        
+                    <p><button>Apply for credit</button></p>
+                </form>
+            </div>
+      
+        </div>
+
+
+
+
+
+
+
     </div>
-    <div class="description">
-        <p>Top To Bottom Renovated, Meticulously Maintained, 3+2 Beds, One Bath, All Brick Bungalow Located In The Sought-After North-End Family Neighborhood! This Airy And Lovely Home Offers The Deep Double Driveway That Can Easily Accommodate Seven Cars! Plenty Of Opportunities With This Spacious Backyard With Mature Trees, Truly In Move-In Condition.</p>
-    </div>
-
-    <div class="contact">
-        <form action="/">
-            <label for="fname">Full name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name here">
-
-            <label for="email">Email address</label>
-            <input type="text" id="email" name="lastname" placeholder="Your email address here">
-
-            <label for="phone">Phone number</label>
-            <input type="text" id="Phone number" name="phone" placeholder="Your phone number here">
+  
 
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject"
-                placeholder="I would like more information regarding this property at 40 College St, Toronto, ON M5G 2J3"
-                style="height:200px"></textarea>
 
-            <p><button>Submit an inquiry</button></p>
-        </form>
-    </div>
-    <div class="calculator">
-        <form action="/">
-            <label for="fname">Annual Income</label>
-            <input type="text" id="ai" name="firstname" placeholder="$1 000 000">
 
-            <label for="email">Interest Rate</label>
-            <input type="text" id="rate" name="lastname" placeholder="2.49%">
+    
 
-            <label for="phone">Monthly Debts</label>
-            <input type="text" id="debt" name="phone" placeholder="$4500">
-
-            <label for="phone">Mortgage Length</label>
-            <input type="text" id="length" name="phone" placeholder="25 years">
-
-            <label for="phone">Down Payment</label>
-            <input type="text" id="dp" name="phone" placeholder="$100 000">
-
-            <label for="phone">Property Price</label>
-            <input type="text" id="Price" name="phone" placeholder="$523 000">
-
-            <p><button>Apply for credit</button></p>
-        </form>
-    </div>
     <div class="footer">
 
-        <h1 class="logo-text">OH<span>|</span>OUR HOME</h1>
-        <p>
+        <div class="intro">
+            <h1 class="logo-text">OH<span>|</span>OUR HOME</h1>
+            <p>
             OH are real estate agents in St.Catharines, Ontario. We are a team of real estate agents who are passionate
             about real estate. We are here to help you find your dream home!
-        </p>
+            </p>
+        </div>
+
+        <div class="coninfo">
+        
+            <p>Contact email:oh.admin@ourhome.ca</p>
+            <p>Address: 1812 Sir Isaac Brock Way, St. Catharines, ON L2S 3A1</p>
+            <p>ON-line agent hour: 8 am-10 pm</p>
+            <p>Free-roll: 915-343-9999</p>
+        
+        </div>
+        
     </div>
 </body>
 
