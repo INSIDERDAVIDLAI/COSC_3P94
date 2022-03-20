@@ -1,17 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .nav{
-    height: 50px;
-    width: 100%;
-    list-style-type: none;
-    background-color: lightblue;
-    position: fixed;
-    top:0px;
-    margin:0 auto;
-    z-index: 2;
-    
-    
-    
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(107, 156, 247);
+  border-radius: 10px;
+}
   
 .nav li {
     float: right;
