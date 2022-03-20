@@ -1,79 +1,28 @@
 <!DOCTYPE HTML>
 <html>
    
-<head>
-
-
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=3">
-  
-
-
+    <head>
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <script>
+             
+        p:before{content:"$"; color:#ff0000;}
 
-    <style>
-        body {
-            font-family: 'PressStart2PRegular';
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        table {
-            border: 1px solid black;
-        }
-        /* We now start and end comments differently. */
-        
-        footer {
-            position: fixed;
-            bottom: 0pt;
-            left: 0pt;
-            background-color: white;
-        }
-        
-        body {
-            background-color: lightblue;
-        }
-        
-        footer {
-            position: fixed;
-            bottom: 0pt;
-            left: 0pt;
-            background-color: white;
-        }
-        
-        header {
-            background-color: lightblue;
-        }
-        
-        header li {
-            display: inline;
-        }
-        
-        
-        
-        .thumb:hover {
-            width: 200px;
-            height: 200px;
-            background-color: white;
-        }
-        p:before{content:"$"; color:#ff0000;
-    }
-   
-    </style>
-
-</head>
-
-<body>
+    </script>
     
-    <div class="nav">
-        <a href="index.html"><img src="img/logo.png" alt="logo" width="185" height="60"></a>
-        <li><a href="tel:000-000-0000">Inquiry now: 000-000-0000</a></li>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="search.html">Search</a></li>
-        <li><a href="buy.html">Buy</a></li>
-        <li><a href="sell.html">Sell</a></li>
-        <li><a href="login.html">Login</a></li>
-    </div>
+    <body>
+        <div class="nav">
+            <a href="index.html"><img src="../pics/logo.png" alt="logo" width="185" height="60"></a>
+            <li><a href="tel:000-000-0000">Inquiry now: 000-000-0000</a></li>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="contact.asp">Buy</a></li>
+            <li><a href="about.asp">Sell</a></li>
+            <li><a href="login.html">Login</a></li>
+        </div>
+    
+       
     
     <ul class="header-nav">
         <li class="item">
@@ -82,13 +31,13 @@
                
                 <input type="text" id="myInput" placeholder="type your house address here...">
             </form>
-        </li>
-        
-    </ul>
-    
-
-
+    <style>
+        p:before{content:"$"; color:#ff0000;}
+    </style>
+      
     <p id="number1"></p>
+    
+    
 
 
   <button onclick="random()">when you cilck this button,you will get the house vulue</button>
@@ -98,9 +47,14 @@
   
   document.getElementById("number1").innerHTML = Math.floor(Math.random() * 10000000);
   }
+  
+       
+
   </script>
   
-
+</li>
+        
+</ul>
 
 
 
