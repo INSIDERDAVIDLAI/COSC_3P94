@@ -24,12 +24,10 @@
     
        
     
-    <ul class="header-nav">
-        <li class="item">
-            
-            <form action="">
-               
-                <input type="text" id="myInput" placeholder="type your house address here...">
+        <div class="evlueate">
+            <form action="sell.html" method="post">
+                <input type="text" name="evluate" placeholder="evluate">
+                
             </form>
     <style>
         p:before{content:"$"; color:#ff0000;}
@@ -40,7 +38,7 @@
     
 
 
-  <button onclick="random()">when you cilck this button,you will get the house vulue</button>
+  <button onclick="random()">when you cilck this button, you will get the house vulue</button>
   
   <script>
    function random(){
@@ -56,7 +54,30 @@
         
 </ul>
 
+</div>
 
+<div class="content">
+
+    <div class="contact">
+        <form action="/">
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name here">
+
+            <label for="email">Email address</label>
+            <input type="text" id="email" name="lastname" placeholder="Your email address here">
+
+            <label for="phone">Phone number</label>
+            <input type="text" id="Phone number" name="phone" placeholder="Your phone number here">
+
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject"
+                placeholder="I would like more information regarding this property at 40 College St, Toronto, ON M5G 2J3"
+                style="height:200px"></textarea>
+
+            <button>Submit an inquiry</button>
+        </form>
+    </div>
 
 
 </body>
