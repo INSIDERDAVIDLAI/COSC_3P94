@@ -6,6 +6,7 @@
   overflow: hidden;
   background-color: rgb(107, 156, 247);
   border-radius: 10px;
+  
 }
   
 .nav li {
@@ -39,6 +40,8 @@
     display: flex;
     flex-direction: column;
     transition: 0.5s ease;
+    
+    
 
 }
 
@@ -54,11 +57,15 @@
     padding-left: 25px;
     cursor: pointer;
     transition: 0.2s;
+    color:aliceblue;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
     
 }
 
 .sidebar li a{
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
   color: aliceblue;
 }
 
