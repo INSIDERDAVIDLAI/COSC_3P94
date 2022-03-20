@@ -113,16 +113,17 @@
 }
 .viewHistory button, .savedHouse button{
   border: none;
-  outline: 0;
-  padding: 12px;
-  color: black;
-  background-color: lightblue;
-  text-align: center;
-  cursor: pointer;
-  width: auto;
-  font-size: 18px;
-  border-radius: 15px;
-  margin: 5px;
+    outline: 0;
+    padding: 12px;
+    color: #fff;
+    background: linear-gradient(to right,rgb(87, 51, 250),rgb(243, 69, 98),rgb(235, 12, 179),rgb(14, 14, 252));
+    background-size: 300px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 5px;
 }
 .search button {
   float: right;
