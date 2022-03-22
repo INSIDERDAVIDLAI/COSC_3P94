@@ -13,6 +13,14 @@
     float: right;
    
   }
+.nav:hover li {
+    opacity: 0.2;
+    filter: blur(1px);
+}
+.nav li:hover {
+  opacity: 1;
+  filter: blur(0px);
+}
 
 .nav li a {
     font-family: 'Roboto', sans-serif;
@@ -23,9 +31,7 @@
     text-decoration: none;
   }
   
-.nav li a:hover {
-    color: rgb(255, 0, 0);
-  }
+
 
 
 .sidebar {
