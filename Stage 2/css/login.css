@@ -14,15 +14,23 @@
     position: fixed;
     top: 0px;
     margin: 0 auto;
+    border-radius: 10px;
 
 }
+
+.nav:hover li{
+    opacity: 0.2;
+    filter:blur(1px);
+  }
 
 li {
     float: right;
-
+    transition: blur(1px);
 }
 
 li a {
+    position:relative;
+
     font-family: 'Roboto', sans-serif;
     display: block;
     color: black;
@@ -31,9 +39,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    color: rgb(255, 0, 0);
-}
+.nav li:hover{
+    opacity: 1;
+    filter: blur(0px);
+  }
 
 body {
     height: 100vh;
