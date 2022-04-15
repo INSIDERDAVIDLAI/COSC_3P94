@@ -102,17 +102,17 @@ li a {
     background-color: rgb(107, 156, 247);
     padding: 20px;
     width: 400px;
-    height: 600px;
+    height: 700px;
 }
 
 .calculator {
     font-family: 'Roboto', sans-serif;
     float: right;
     border-radius: 5px;
-    background-color: rgb(107, 156, 247);
+    background-color: burlywood;
     padding: 20px;
     width: 400px;
-    height: 600px;
+    height: 700px;
 }
 
 .contact button,
