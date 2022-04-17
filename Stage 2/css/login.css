@@ -142,7 +142,7 @@ input:focus::placeholder {
     width: 70%;
     margin-top: 10px;
     background-color: #fff;
-    color: #8e97a8;
+    color: gray;
     border-radius: 20px;
     padding: 10px;
     letter-spacing: 2px;
@@ -185,7 +185,7 @@ input:focus::placeholder {
 
 
 .basedFrame span {
-    color: purple;
+    color: rgb(190, 190, 34);
 }
 
 
