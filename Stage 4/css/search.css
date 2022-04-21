@@ -187,7 +187,7 @@
 }
   .footer {
     border-radius: 10px;
-    position:fixed;
+    position:relative;
     font-family: 'Roboto', sans-serif;
     left: 0;
     bottom: 0;
@@ -236,4 +236,14 @@
   
   .body{
     position: relative;
+    min-height: 500px;
+
+  }
+
+  html{
+    height: 100%;
+  }
+
+  .container{
+    padding-bottom: 200px;
   }
