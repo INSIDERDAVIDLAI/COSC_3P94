@@ -122,13 +122,13 @@
     outline: 0;
     padding: 12px;
     color: #fff;
-    background: linear-gradient(to right,rgb(87, 51, 250),rgb(243, 69, 98),rgb(235, 12, 179),rgb(14, 14, 252));
+    background: linear-gradient(to right, black, grey);
     background-size: 300px;
     text-align: center;
     cursor: pointer;
     width: 200px;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 5px;
 }
 .search button {
@@ -193,12 +193,12 @@
     outline: 0;
     padding: 12px;
     color: #fff;
-    background: linear-gradient(to right, rgb(87, 51, 250), rgb(243, 69, 98), rgb(235, 12, 179), rgb(14, 14, 252));
+    background: linear-gradient(to right, black, grey);
     background-size: 300px;
     text-align: center;
     cursor: pointer;
     width: 200px;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 5px;
   }
