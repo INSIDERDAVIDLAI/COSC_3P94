@@ -191,14 +191,14 @@
   .btnDoc{
     border: none;
     outline: 0;
-    padding: 12px;
+    padding: 12px 24px;
     color: #fff;
-    background: linear-gradient(to right, black, grey);
     background-size: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     cursor: pointer;
     width: 200px;
     font-size: 15px;
     border-radius: 10px;
-    margin: 5px;
+    margin-top: 25px;
   }
