@@ -57,8 +57,8 @@ li a {
 .card{
 
     position: relative;
-    width: 350px;
-    height: 550px;
+    width: 360px;
+    height: 600px;
     margin: 10px;
     display: flex;
     align-items: flex-end;
@@ -173,4 +173,19 @@ li a {
     transform: translateY(0);
     transition-delay: 0.1s;
 
+}
+
+button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #fff;
+    background: linear-gradient(to right, rgb(87, 51, 250), rgb(243, 69, 98), rgb(235, 12, 179), rgb(14, 14, 252));
+    background-size: 300px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 5px;
 }
