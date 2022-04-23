@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!--real estate website-->
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../css/login.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            background-size: cover;
+        }
+    </style>
+</head>
+
+
+
+<body onload="count()">
+    <div class="nav">
+        <a href="../index.html"><img src="../pics/logo.png" alt="logo" width="185" height="60"></a>
+        <li><a href="tel:000-000-0000">Inquiry now: 000-000-0000</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../search/search.html">Search</a></li>
+        <li><a href="../bs/buy.html">Buy</a></li>
+        <li><a href="../bs/sell.html">Sell</a></li>
+        <li><a href="login.html">Login</a></li>
+    </div>
+
+
+    <h1>Request submitted<br>
+    An agent will reach you shortly regarding buying process<br>
+    Thank you for your interest, you will be redirected within <span id="count"> 2 </span> seconds...</h1>
+
+    <script>
+             var time = 5;
+    function count(){     
+        if(time<0){
+            window.location = "personal_info.html";
+        }else{
+            document.getElementById("count").innerHTML = time ; 
+            window.setTimeout("count()", 1000);
+        }
+        time = time - 1;
+    }
+
+    </script>
+
+</body>
+
+</html>
