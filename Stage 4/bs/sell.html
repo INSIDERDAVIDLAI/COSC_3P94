@@ -1,13 +1,20 @@
 <!DOCTYPE HTML>
-<html>
 
 <head>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sell.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(200deg, #f5f7fa, #c3cfe2);
+        }
+    </style>
+
 </head>
 
 
 <body>
+
+
     <div class="nav">
         <a href="../index.html"><img src="../pics/logo.png" alt="logo" width="185" height="60"></a>
         <li><a href="tel:000-000-0000">Inquiry now: 000-000-0000</a></li>
@@ -18,91 +25,53 @@
         <li><a href="../user/login.html">Login</a></li>
     </div>
 
+    <div class="intro">
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>Step 1: Login</h2>
+                    <p>You have to log in to your OurHome account, if you don't have one, you are required to register
+                        to continue the process. With OurHome, our agents provide all the support you need through the
+                        whole selling process. All these require an account.</p>
+                    <button onclick="location.href='../user/login.html'" class="btn">Login</button>
 
-    <table>
-        <tbody>
-            <tr>
-                <td>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>Step 2: Upload</h2>
+                    <p>Once logged in, you have to upload information regarding ownership of your property, including
+                        but
+                        not limited to proof of land record, MLS number(If you currently have one) etc. All relevant
+                        documents will be used
+                        to expedite the review process.</p>
+                    <button onclick="location.href='../user/progresssell.html'" class="btn">Upload</button>
 
-                    <img src="img/1.jpg" style="width: 100%;" />
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>Step 3: Review</h2>
+                    <p>After you successfully upload all documents, OurHome will review all documents you uploaded to
+                        confirm the ownership and determine the status of the house. If you don't have an MLS number, we
+                        will give you one once your information is verified.</p>
+                    <button onclick="location.href='../user/progresssell.html'" class="btn">Trace Progress</button>
 
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>Step 4: Service</h2>
+                    <p>Once your documents are finalized, OurHome will prepare an comparative market analysis. After
+                        that, OurHome will provide more services regarding your selling process, such as managing all
+                        the incoming calls about your home and arranging showings.</p>
+                    <button onclick="location.href='../user/personal_info.html'" class="btn">Your Profile</button>
 
-                </td>
+                </div>
+            </div>
 
-                <td>
-                    <p><b>Step1:</b> You have to log in to your OurHome account, if you don't have one, you are required
-                        to register to continue the process.</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <img src="img/2.jpg" style="width: 100%;" />
-
-                </td>
-                <td>
-                    <p><b>Step2:</b>Upload information regarding your property, including but not limited to proof of
-                        land record, MLS number(If you have one) etc. All documents will be used to expedite the selling
-                        process.</p>
-                </td>
-            </tr>
-            <tr>
-
-                <td>
-                    <img src="img/3.jpg" style="width: 100%;" />
-
-                </td>
-
-                <td>
-                    <p><b>Step3:</b>After you successfully uploaded all documents and submitted them, our group will
-                        review and verify all documents you uploaded to confirm the ownership and determine the status
-                        of the house.If you don't have MLS number, we will give you one once we veritied your
-                        information</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/4.jpg" style="width: 100%;" />
-
-                </td>
-
-                <td>
-                    <p><b>Step4:</b> Once you get approved, we will list your property on website and provide more
-                        services.</p>
-                </td>
-
-            </tr>
-        </tbody>
-
-    </table>
-
-    <div class="content">
-
-        <div class="contact">
-            <h1>Contact Us Regarding Selling Process</h1>
-            <form action="/">
-                <label for="fname">Full name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name here">
-
-                <label for="email">Email address</label>
-                <input type="text" id="email" name="lastname" placeholder="Your email address here">
-
-                <label for="phone">Phone number</label>
-                <input type="text" id="Phone number" name="phone" placeholder="Your phone number here">
-
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject"
-                    placeholder="I would like more information regard seeling my property here"
-                    style="height:200px"></textarea>
-
-                <p><button>Submit an inquiry</button></p>
-            </form>
         </div>
-
-
     </div>
-
 
 
 
