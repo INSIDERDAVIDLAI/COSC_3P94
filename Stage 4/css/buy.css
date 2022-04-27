@@ -167,3 +167,13 @@ li a {
     text-align: justify;
 
 }
+
+.step button{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+
+}
