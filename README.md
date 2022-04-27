@@ -20,4 +20,12 @@ Instructions:
 
 4.Start exploring our website. 
 
-Note: This project work in 1920*1080 and 2K in Chrome Windows Platform
+Stage 3:
+
+Peer evaluations
+
+Stage 4:
+
+Final Project Done
+
+Note: This project work in 1920*1080 and 2K in Chrome at Windows Platform.
