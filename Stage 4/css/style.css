@@ -118,7 +118,7 @@ li a {
 }
 
 .contact button,
-.calculator button {
+.calculator button,.sidebar button {
     border: none;
     outline: 0;
     padding: 12px;
