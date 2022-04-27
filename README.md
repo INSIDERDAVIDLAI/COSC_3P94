@@ -19,3 +19,5 @@ Instructions:
 3.Open index.html. 
 
 4.Start exploring our website. 
+
+Note: This project work in 1920*1080 and 2K in Chrome Windows Platform
